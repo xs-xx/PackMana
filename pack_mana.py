@@ -7,7 +7,7 @@ import os
 import inspect
 import importlib
 
-class PackageManager:
+class Package_Mana:
     def __init__(self):
         self.imported_packages = []
         self.script_path = self.get_caller_script_path()
