@@ -1,3 +1,3 @@
-from .Package_Manager_XS import *
+from .PackMana import *
 
 __version__ = "0.1.0"
