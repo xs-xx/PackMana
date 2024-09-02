@@ -3,7 +3,7 @@ Tired of installing packagas or failing requirements.txt installs. Well clone an
 
     git clone https://github.com/xs-xx/PackMana.git
 <br>
-
+Add this to the top of the code before all other imports. 
 
     from PackMana import pack_mana
     mana = pack_mana.Pack_Mana()
