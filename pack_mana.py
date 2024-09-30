@@ -1,4 +1,3 @@
-
 import subprocess
 import sys
 import pkgutil
@@ -24,7 +23,7 @@ class Pack_Mana:
         if not self.script_path:
             raise ValueError("Script path could not be determined.")
 
-        with open(self.script_path, 'r') as file:
+        with open(self.script_path, 'r', encoding='utf-8') as file:
             node = ast.parse(file.read(), filename=self.script_path)
 
         for elem in node.body:
